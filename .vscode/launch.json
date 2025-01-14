@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AwesomeOrNot",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._5_awesome_or_not.AwesomeOrNot",
+            "projectName": "Java-Level0-Module0_f969f56c"
+        },
+        {
+            "type": "java",
+            "name": "Greeter",
+            "request": "launch",
+            "mainClass": "_03_print_and_popups._1_greeter.Greeter",
+            "projectName": "Java-Level0-Module0_f969f56c"
+        },
+        {
+            "type": "java",
             "name": "DragonFight",
             "request": "launch",
             "mainClass": "_04_amazing_games._2_dragon_fight.DragonFight"

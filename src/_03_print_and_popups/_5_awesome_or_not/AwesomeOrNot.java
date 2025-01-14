@@ -6,11 +6,13 @@ public class AwesomeOrNot {
 
 	// 1. Make a main method that includes everything below
 
-	
+		public static void main(String[] args){
+
 		Random ran = new Random();    //This will be used below to make a random number. 
 		
 		// 2. Make a variable that will hold a random whole number
-	
+		int random_number = ran.nextInt(4);
+		System.out.println( "one random number is "+String.valueOf(random_number)+".");
 		// 3. Set your variable equal to a positive number less than 4 using     ran.nextInt(4); 
 	
 		// 3. Print your variable to the console
@@ -32,5 +34,5 @@ public class AwesomeOrNot {
 		// 8. If your variable is  3
 	
 			// -- invent your own message to give to the user (be nice).
-
+		}
 }
