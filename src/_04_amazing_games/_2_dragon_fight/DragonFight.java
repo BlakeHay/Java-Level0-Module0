@@ -12,7 +12,10 @@ public class DragonFight {
 
 		ImageIcon dragon = new ImageIcon("src/_04_amazing_games/_2_dragon_fight/dragonPicture.jpg");
 		JOptionPane.showMessageDialog(null, "Defeat the dragon to take its treasure!", "Dragon Fighter", 0, dragon);
-
+		int playerHealth = 100;
+		int dragonHealth = 100;
+		int playerAttack = 0
+		int player = 0
 		// 1. Create some variables to hold health levels
 		
 			// playerHealth to store your health - set it equal to 100
@@ -30,7 +33,8 @@ public class DragonFight {
 		
 		//  This while statement will cause the game attack code to repeat
 		while (true) {
-
+String typeofAttack=JOptionPane.showInputDialog("Do you want to attack the dragon with a yell or a kick?");
+if (typeofAttack .equals "yell"){}
 			// THE PLAYER ATTACKS THE DRAGON
 
 				// 3. Ask the player in a pop-up if they want to attack the dragon with a yell
